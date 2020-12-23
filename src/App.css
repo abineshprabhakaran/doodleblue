@@ -1,0 +1,41 @@
+.sideBar {
+  min-width: 60px;
+  max-width: 60px;
+  background: linear-gradient(180deg, rgba(254, 136, 102, 1) 0%, rgba(255, 102, 163, 1) 100%);
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1;
+  -webkit-box-shadow: -4px 0px 15px rgb(0 0 0 / 15%);
+  box-shadow: -4px 0px 15px rgb(0 0 0 / 15%);
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.sideMenuIcon {
+  height: 25px;
+}
+
+.activeMenu {
+  border-left: 3px solid #fff;
+}
+
+.mainMenu {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: #fff;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.phoneBook{
+  height: 60px;
+}
